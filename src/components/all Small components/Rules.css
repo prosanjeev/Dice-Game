@@ -1,0 +1,19 @@
+.rules-main{
+    max-width: 794px;
+    height: 140px;
+    background-color: #FBF1F1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.rules-main h1{
+   font-size: 24px;
+   font-weight: 700;
+}
+.rules-main p{
+   font-size: 16px;
+   font-weight: 500;
+}

@@ -1,5 +1,7 @@
+import { useState } from 'react'
 import './StartPage.css'
-const StartPage = () => {
+const StartPage = ({toogle}) => {
+
   return (
     <div className='start-page-main'>
         <div>
@@ -7,7 +9,7 @@ const StartPage = () => {
         </div>
         <div className='start-page-contant'>
             <h1>DICE GAME</h1>
-            <button>Play Now</button>
+            <button  onClick={toogle} >Play Now</button>
         </div>
     </div>
   )

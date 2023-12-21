@@ -1,0 +1,17 @@
+.playpage-main{
+    width: 1280px;
+    margin: 0 auto ;
+
+}
+.upper-contant{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}

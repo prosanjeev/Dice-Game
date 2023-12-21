@@ -1,0 +1,37 @@
+.number-box-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+}
+.numberbox-flex{
+    display: flex;
+    gap: 24px;
+}
+.number-box{
+    border: 1px solid black;
+    height: 72px;
+    width: 72px;
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.selected {
+    background-color: black;
+    color: white;
+    /* Add other styles for selected state as needed */
+  }
+
+.numberbox-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.error{
+    color: red;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
